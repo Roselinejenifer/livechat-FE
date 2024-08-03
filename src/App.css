@@ -1,0 +1,109 @@
+#chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message span {
+  font-weight: bold;
+}
+
+.register form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.register form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register form button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.register form button:hover{
+  background-color: #e0e0e0;
+}
+
+.register{
+  max-width: 400px;
+  margin: 0 auto;
+  /* background-color: aquamarine */
+
+}
+
+.login form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.login form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.login form button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.login form button:hover{
+  background-color: #e0e0e0;
+}
+.login{
+  max-width: 400px;
+  margin: 0 auto;
+  /* background-color: aquamarine */
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.log-reg{
+  display: flex;
+  max-width: 400px;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+.log-reg button{
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.chat{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  /* margin: 0 auto; */
+  height: 80vh;
+}

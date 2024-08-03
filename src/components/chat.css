@@ -1,0 +1,99 @@
+/* General container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    /* margin-top: 20%; */
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+/* Hide scrollbar but keep scrollable */
+.message-container {
+    flex-grow: 1;
+    overflow: auto; /* Make sure the container is scrollable */
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* margin-bottom: 16px; */
+    opacity: 0.6;
+    background-size: cover;
+    background-color: #f9f9f9;
+    /* height: 100px; */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.message-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+/* Hide scrollbar for Firefox */
+.message-container {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for IE and Edge */
+.message-container {
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Additional styling for chat messages */
+.message-container div {
+    margin-bottom: 8px;
+    /* padding: 8px; */
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.message-container div strong {
+    color: #007bff;
+}
+
+/* Styling for input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 8px;
+}
+
+.MuiTextField-root {
+    flex-grow: 1;
+}
+
+.MuiIconButton-root {
+    margin-left: 8px;
+}
+.sent-message {
+    text-align: right;
+    background-color: #DCF8C6;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.received-message {
+    text-align: left;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
