@@ -130,7 +130,7 @@ const Chat = () => {
     return (
         <Container className="container">
             <div className="chat">
-                <Card sx={{ display: "flex" }}>
+                <Card sx={{ display: "flex" , height:"100%"}}>
                     <div className="message-container">
                         {messages.length === 0 ? (
                             <p>No messages yet</p>
