@@ -30,8 +30,9 @@ const Chat = () => {
                 console.error('Error fetching messages:', error);
             }
         };
-
-        fetchMessages();
+        setInterval(() => {
+            fetchMessages();
+        }, 1000);
 
         const handleSocketErrors = (error) => {
             console.error('Socket error:', error);
